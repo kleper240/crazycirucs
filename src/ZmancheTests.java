@@ -14,7 +14,7 @@ public class ZmancheTests {
 	 * Constructeur
 	 */
     @Test
-	public  void MancheTests() {
+	public void MancheTests() {
 		arguments = new String[] {"luffy", "solo", "goku"};
 		jeu = new Jeu(arguments);
 		manche = new Manche(jeu.getCartes().get(0), jeu.getCartes().get(1), jeu.getJoueurs());
